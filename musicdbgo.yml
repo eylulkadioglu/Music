@@ -1,7 +1,0 @@
-SALT: "Ey1u1_@lp"
-LISTEN_ADDR: "127.0.0.1:13000"
-DB_DSN: "host='ep-long-base-42382053.us-west-2.aws.neon.tech' port=5432 user='eylulkadioglu' password='CcrLABtS1uK4' dbname='neondb' sslmode='require'"
-MAILER_ADDR: "smtp.gmail.com"
-MAILER_PORT: 587
-MAILER_FROM: "musicdbgo@gmail.com"
-MAILER_PASSWD: "rlde cawg fseo sxgv"
