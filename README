@@ -1,0 +1,9 @@
+to make a change on DB:
+
+open up a shell and run:
+
+./db_env.sh
+
+then
+
+ psql < schema.sql
