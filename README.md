@@ -1,10 +1,10 @@
-# Artist Management System
+# Music Records Database Management System
 
-This project is an Artist Management System that allows users to manage artist information, claims, and other related data. It includes functionalities for user authentication, database interactions, and email notifications.
+This project is a Music Records Database Management System that allows users to manage artist information, claims, and other related data. It includes functionalities for user authentication, database interactions, and email notifications.
 
 ## Features
 
-- **User Authentication**: Secure user login and registration.
+- **User Authentication**: Secure user login and registration using JWT.
 - **Artist Management**: Add, update, view, and delete artist information.
 - **Claim Management**: Handle claims related to artists.
 - **Database Interactions**: Efficiently manage data using a database.
@@ -23,9 +23,10 @@ This project is an Artist Management System that allows users to manage artist i
     cd Music
     ```
 
-2. **Install dependencies**:
+2. **Install dependencies and Compile**:
     ```bash
     go mod tidy
+    go build
     ```
 
 3. **Set up the database**:
@@ -33,7 +34,7 @@ This project is an Artist Management System that allows users to manage artist i
 
 4. **Run the application**:
     ```bash
-    go run main.go
+    ./musicdb
     ```
 
 ## Usage
@@ -50,7 +51,7 @@ This project is an Artist Management System that allows users to manage artist i
 
 ## API Endpoints
 
-Below are some of the key API endpoints:
+Below are some of the key API endpoints (not the full list):
 
 - **User Endpoints**:
     - `POST /register`: Register a new user.
